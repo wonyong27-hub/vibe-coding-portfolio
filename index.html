@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Dev Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>안녕하세요 저는 <span class="highlight">최원용</span> 입니다</h1>
+                    <p class="subtitle">저는 웹개발자 입니다</p>
+                    <div class="buttons">
+                        <button class="btn-outline">SHOW PROFILE</button>
+                        <button class="btn-primary">SHOW WORK</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="최원용.jpg" alt="최원용">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p class="section-subtitle">Sub Heading Goes Here</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>Nunc varius mauris eget sodales tempus. Quisque sollicitudin consectetur accumsan. Ut imperdiet ex velit, ut congue justo.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>Nunc varius mauris eget sodales tempus. Quisque sollicitudin consectetur accumsan. Ut imperdiet ex velit, ut congue justo.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Seo</h3>
+                    <p>Nunc varius mauris eget sodales tempus. Quisque sollicitudin consectetur accumsan. Ut imperdiet ex velit, ut congue justo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Modal -->
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Profile</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius mauris eget sodales tempus. Quisque sollicitudin consectetur accumsan. Ut imperdiet ex velit, ut congue justo.</p>
+            <p>Email: wpdev@example.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </div>
+    </div>
+
+    <!-- Work Modal -->
+    <div id="workModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>My Work</h2>
+            <div class="work-grid">
+                <div class="work-item">Project 1</div>
+                <div class="work-item">Project 2</div>
+                <div class="work-item">Project 3</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
